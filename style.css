@@ -64,3 +64,14 @@ h6 {
   height: 100px;
   width: 200px;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+}
