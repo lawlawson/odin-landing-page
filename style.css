@@ -86,16 +86,29 @@ h6 {
 }
 
 .transformation {
-  padding: 80px 0;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  align-items: center;
 }
 
 .heading h2 {
   text-align: center;
+  margin: 20px 0;
 }
 
 .profiles {
   display: flex;
-  flex-direction: row;
+  margin: 0 auto;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 
 .quote-container {
