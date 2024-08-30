@@ -65,12 +65,25 @@ h6 {
   width: 200px;
 }
 
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 5rem;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+}
+
 footer {
   background-color: #1f2937;
   color: #fff;
   text-align: center;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 20px 0;
