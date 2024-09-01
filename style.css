@@ -68,6 +68,8 @@ h6 {
 .container {
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .content-wrap {
@@ -128,6 +130,31 @@ h6 {
   display: flex;
   flex-direction: row;
   margin: 60px 50px;
+  justify-content: space-between;
+}
+
+.cta-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 7rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+body {
+  margin: 0 auto;
 }
 
 footer {
