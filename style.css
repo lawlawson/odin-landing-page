@@ -46,14 +46,26 @@ h6 {
   isolation: isolate;
 }
 
+.navigation {
+  background-color: #1f2937;
+  color: #fff;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
 .navigation ul {
   display: flex;
   list-style: none;
 }
 
+.nav-link {
+  margin-right: 15px;
+}
+
 .logo-container {
   height: 50px;
   width: 50px;
+  margin-right: auto;
 }
 
 .header-container {
@@ -76,15 +88,26 @@ h6 {
   padding-bottom: 5rem;
 }
 
-.navigation {
-  background-color: #1f2937;
-  color: #fff;
-}
-
 .header-container {
   background-color: #1f2937;
   color: #fff;
   padding: 100px 0;
+}
+
+.signup-container {
+  margin: 0 auto;
+}
+
+.image-container {
+  margin-right: 100px;
+}
+
+.sign-button {
+  background-color: #3882f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .transformation {
